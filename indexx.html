@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+</head>
+<body>  
+	<script>
+ var users = [
+            {
+                name: 'alireza',
+                gender: 'male'
+            }, {
+                name: 'x',
+                gender: 'male'
+            }, {
+                name: 'y',
+                gender: 'female'
+            }, {
+                name: 'q',
+                gender: 'female'
+            }, {
+                name: 'cf',
+                gender: 'male'
+            }, {
+                name: 'v',
+                gender: 'male'
+            },
+        ]
+
+var femalelist=
+[]
+var malelist=
+[]
+  for (var i = 0; i < users.length; i=i+1) 
+    if(users[i].gender==='female')
+{femalelist.push(users[i])}
+else{malelist.push(users[i])}
+
+console.log('femalelist:' , femalelist)
+console.log('malelist:' , malelist)
+
+    </script>
+
+</body>
+</html>
